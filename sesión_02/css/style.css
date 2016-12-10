@@ -1,0 +1,33 @@
+.container{
+	width: 100%;
+}
+.row{
+	width: 100%;
+	overflow: hidden;
+}
+.col{
+	width: 98px;
+	height: 98px;
+	border: 1px solid gray;
+	float: left;
+}
+.col:hover{
+	cursor: pointer;
+}
+.center{
+	text-align: center !important;
+}
+.active{
+	background: lightgreen;
+}
+
+span{
+	
+}
+
+@media (min-width: 1000px) {
+	.container{
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
